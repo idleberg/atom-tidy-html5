@@ -1,8 +1,10 @@
 import { CompositeDisposable } from 'atom';
 import { tidy_html5 as tidy } from 'tidy-html5';
 
+import config from './config';
+
 module.exports = {
-  config: {},
+  config: config,
   subscriptions: null,
   defaultOptions: {
     'quiet': true,
