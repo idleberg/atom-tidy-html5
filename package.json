@@ -1,38 +1,38 @@
 {
-    "name": "tidy-html5",
-    "main": "./lib/tidy",
-    "version": "0.0.0",
-    "description": "Run tidy over active HTML document or selections",
-    "scripts": {
-        "build": "tsc --project .",
-        "lint": "tslint --project .",
-        "precommit": "npm run lint",
-        "postinstall": "npm run build",
-        "test": "npm run lint"
-    },
-    "keywords": [],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/idleberg/atom-tidy-html5"
-    },
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "activationCommands": {
-        "atom-workspace": [
-            "tidy:document",
-            "tidy:selection"
-        ]
-    },
-    "dependencies": {
-        "tidy-html5": "^0.1.1"
-    },
-    "devDependencies": {
-        "@types/atom": "^1.28.0",
-        "@types/node": "^10.3.4",
-        "husky": "^0.14.3",
-        "tslint": "^5.10.0",
-        "typescript": "^2.9.2"
-    }
+  "name": "tidy-html5",
+  "main": "./lib/tidy",
+  "version": "0.1.0",
+  "description": "Run tidy over active HTML document or selections",
+  "scripts": {
+    "build": "tsc --project .",
+    "lint": "tslint --project .",
+    "precommit": "npm run lint",
+    "postinstall": "npm run build",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idleberg/atom-tidy-html5"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "tidy:document",
+      "tidy:selection"
+    ]
+  },
+  "dependencies": {
+    "tidy-html5": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/atom": "^1.28.0",
+    "@types/node": "^10.3.4",
+    "husky": "^0.14.3",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
 }
