@@ -1,4 +1,4 @@
-const config = {
+const config: Object = {
     'tidy': {
       title: 'Tidy Options',
       type: 'object',
