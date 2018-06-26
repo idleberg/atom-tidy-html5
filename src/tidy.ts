@@ -73,10 +73,16 @@ module.exports = {
   },
 
   tidy(input: string): string {
-      let output;
+      let options, output;
+
+      if (atom.config.get(`tidy-html5.ignoreTidyOptions`) === true) {
+        options = this.defaultOptions
+      } else {
+        options = Object.assign({}, this.defaultOptions, atom.config.get(`tidy-html5.tidy`));
+      }
 
       try {
-        output = tidy(input, this.defaultOptions).trim();
+        output = tidy(input, options).trim();
       } catch (e) {
         console.error(e);
         if (typeof input !== 'undefined') return input;

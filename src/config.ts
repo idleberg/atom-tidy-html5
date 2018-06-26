@@ -1,4 +1,10 @@
 const config: Object = {
+    ignoreTidyOptions: {
+      title: 'Ignore Tidy Options',
+      description: 'This option specifies whether to use the Tidy Options',
+      type: 'boolean',
+      default: false
+    },
     'tidy': {
       title: 'Tidy Options',
       type: 'object',
@@ -295,13 +301,13 @@ const config: Object = {
           type: 'boolean',
           default: false
         },
-        'show-body-only': {
-          title: 'show-body-only',
-          description: 'This option specifies if Tidy should print only the contents of the body tag as an HTML fragment. <a href="http://api.html-tidy.org/tidy/quickref_5.4.0.html#show-body"><span class="icon icon-link-external"></span></a>',
-          type: 'string',
-          default: 'false',
-          enum: ['auto', 'true', 'false']
-        },
+        // 'show-body-only': {
+        //   title: 'show-body-only',
+        //   description: 'This option specifies if Tidy should print only the contents of the body tag as an HTML fragment. <a href="http://api.html-tidy.org/tidy/quickref_5.4.0.html#show-body"><span class="icon icon-link-external"></span></a>',
+        //   type: 'string',
+        //   default: 'false',
+        //   enum: ['auto', 'true', 'false']
+        // },
         'skip-nested': {
           title: 'skip-nested',
           description: 'This option specifies that Tidy should skip nested tags when parsing script and style data. <a href="http://api.html-tidy.org/tidy/quickref_5.4.0.html#skip-nested"><span class="icon icon-link-external"></span></a>',
