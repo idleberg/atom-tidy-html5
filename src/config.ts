@@ -3,7 +3,7 @@ const config: Object = {
       title: 'Ignore Tidy Options',
       description: 'This option specifies whether to use the Tidy Options',
       type: 'boolean',
-      default: false
+      default: true
     },
     'tidy': {
       title: 'Experimental: Tidy Options',

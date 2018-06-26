@@ -76,7 +76,7 @@ module.exports = {
       let options, output;
 
       if (atom.config.get(`tidy-html5.ignoreTidyOptions`) === true) {
-        options = this.defaultOptions
+        options = this.defaultOptions;
       } else {
         options = Object.assign({}, this.defaultOptions, atom.config.get(`tidy-html5.tidy`));
       }
