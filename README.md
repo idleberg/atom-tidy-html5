@@ -3,7 +3,6 @@
 [![apm](https://img.shields.io/apm/l/tidy-html5.svg?style=flat-square)](https://atom.io/packages/tidy-html5)
 [![apm](https://img.shields.io/apm/v/tidy-html5.svg?style=flat-square)](https://atom.io/packages/tidy-html5)
 [![apm](https://img.shields.io/apm/dm/tidy-html5.svg?style=flat-square)](https://atom.io/packages/tidy-html5)
-[![CircleCI](https://img.shields.io/circleci/project/idleberg/atom-tidy-html5.svg?style=flat-square)](https://circleci.com/gh/idleberg/atom-tidy-html5)
 
 # Description
 
