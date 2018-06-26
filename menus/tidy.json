@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Tidy HTML5",
+          "submenu": [
+            {
+              "command": "tidy:document",
+              "label": "Tidy Document"
+            },
+            {
+              "command": "tidy:selection",
+              "label": "Tidy Selection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
