@@ -4,8 +4,8 @@
     "version": "0.0.0",
     "description": "Run tidy over active HTML document or selections",
     "scripts": {
-        "build": "tsc --project .",
-        "lint": "tslint --project .",
+        "build": "tsc --project ./",
+        "lint": "tslint --project ./",
         "precommit": "npm run lint",
         "postinstall": "npm run build",
         "test": "npm run lint"
