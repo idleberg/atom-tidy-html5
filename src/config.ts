@@ -6,7 +6,7 @@ const config: Object = {
       default: false
     },
     'tidy': {
-      title: 'Tidy Options',
+      title: 'Experimental: Tidy Options',
       type: 'object',
       properties: {
         'add-xml-decl': {

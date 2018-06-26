@@ -26,13 +26,13 @@
     ]
   },
   "dependencies": {
-    "tidy-html5": "^0.1.1"
-  },
-  "devDependencies": {
     "@types/atom": "^1.28.0",
     "@types/node": "^10.3.4",
-    "husky": "^0.14.3",
-    "tslint": "^5.10.0",
+    "tidy-html5": "^0.1.1",
     "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "tslint": "^5.10.0"
   }
 }
